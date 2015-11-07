@@ -1,0 +1,63 @@
+sample_shortnames = {
+
+    #'SMHiggsToZZTo4L_M-115_8TeV-powheg15-JHUgenV3-pythia6_8TeV' : 'ggH_powheg15_JHUgen_115',
+
+
+    'SMHiggsToZZTo4L_M-120_8TeV-powheg15-JHUgenV3-pythia6_8TeV' : 'ggH_powheg15_JHUgen_120',
+    'SMHiggsToZZTo4L_M-122_8TeV-powheg15-JHUgenV3-pythia6_8TeV' : 'ggH_powheg15_JHUgen_122',
+    'SMHiggsToZZTo4L_M-124_8TeV-powheg15-JHUgenV3-pythia6_8TeV' : 'ggH_powheg15_JHUgen_124',
+    'SMHiggsToZZTo4L_M-125_8TeV-powheg15-JHUgenV3-pythia6_8TeV' : 'ggH_powheg15_JHUgen_125',
+    'SMHiggsToZZTo4L_M-126_8TeV-powheg15-JHUgenV3-pythia6_8TeV' : 'ggH_powheg15_JHUgen_126',
+    'SMHiggsToZZTo4L_M-128_8TeV-powheg15-JHUgenV3-pythia6_8TeV' : 'ggH_powheg15_JHUgen_128',
+    'SMHiggsToZZTo4L_M-130_8TeV-powheg15-JHUgenV3-pythia6_8TeV' : 'ggH_powheg15_JHUgen_130',
+
+
+
+    #'SMHiggsToZZTo4L_M-135_8TeV-powheg15-JHUgenV3-pythia6_8TeV' : 'ggH_powheg15_JHUgen_135',
+    #'SMHiggsToZZTo4L_M-140_8TeV-powheg15-JHUgenV3-pythia6_8TeV' : 'ggH_powheg15_JHUgen_140',
+
+
+    #'SMHiggsToZZTo4L_M-125_8TeV-powheg15-JHUgenV3-pythia6': 'ggH_powheg15_JHUgen_125',
+    ##'SMHiggsToZZTo4L_M-126_8TeV-powheg15-JHUgenV3-pythia6': 'ggH_powheg15_JHUgen_126',
+    #'GluGluToHToZZTo4L_M-125_8TeV-powheg15-pythia6': 'ggH_powheg15_125',
+    ##'GluGluToHToZZTo4L_M-126_8TeV-powheg15-pythia6': 'ggH_powheg15_126',
+    ##'GluGluToHToZZTo4L_M-125_8TeV-powheg-pythia6': 'ggH_powheg_125',
+    ##'GluGluToHToZZTo4L_M-126_8TeV-powheg-pythia6': 'ggH_powheg_126',
+    #'GluGluToHToZZTo4L_M-125_8TeV-minloHJJ-pythia6-tauola': 'ggH_minloHJJ_125',
+    ##'GluGluToHToZZTo4L_M-126_8TeV-minloHJJ-pythia6-tauola': 'ggH_minloHJJ_126',
+    #'VBF_HToZZTo4L_M-125_8TeV-powheg-pythia6': 'VBF_powheg_125',
+    ##'VBF_HToZZTo4L_M-126_8TeV-powheg-pythia6': 'VBF_powheg_126',
+    #'WH_HToZZTo4L_M-125_8TeV-pythia6': 'WH_pythia_125',
+    ##'WH_HToZZTo4L_M-126_8TeV-pythia6': 'WH_pythia_126',
+    #'ZH_HToZZTo4L_M-125_8TeV-pythia6': 'ZH_pythia_125',
+    ##'ZH_HToZZTo4L_M-126_8TeV-pythia6': 'ZH_pythia_126',
+    #'TTbarH_HToZZTo4L_M-125_8TeV-pythia6': 'ttH_pythia_125',
+    ##'TTbarH_HToZZTo4L_M-126_8TeV-pythia6': 'ttH_pythia_126',
+    ##'Higgs0PMToZZTo4L_M-125p6_8TeV-powheg15-JHUgenV3': 'ggH_JHUgen_125p6',
+    ##'JJHiggs0PToZZTo4L_M-125p6_8TeV-JHUGenV4': 'jjH_JHUgen_125p6',
+    ##'VBFHiggs0PToZZTo4L_M-125p6_8TeV-JHUGenV4': 'VBF_JHUgen_125p6',
+    ##'WHiggs0PToZZTo4L_M-125p6_8TeV-JHUGenV4': 'WH_JHUgen_125p6',
+    ##'ZHiggs0PToZZTo4L_M-125p6_8TeV-JHUGenV4': 'ZH_JHUgen_125p6',
+    ##'Graviton2HMqqbarToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'qq2HM_JHUgen_125p6',
+    ##'Graviton2HPqqbarToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'qq2HP_JHUgen_125p6',
+    ##'Graviton2PH2ToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'gg2PH2_JHUgen_125p6',
+    ##'Graviton2PH2qqbarToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'qq2PH2_JHUgen_125p6',
+    ##'Graviton2PH3ToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'gg2PH3_JHUgen_125p6',
+    ##'Graviton2PH3qqbarToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'qq2PH3_JHUgen_125p6',
+    ##'Graviton2PH6ToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'gg2PH6_JHUgen_125p6',
+    ##'Graviton2PH6qqbarToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'qq2PH6_JHUgen_125p6',
+    ##'Graviton2PH7ToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'gg2PH7_JHUgen_125p6',
+    ##'Graviton2PH7qqbarToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'qq2PH7_JHUgen_125p6',
+    ##'Graviton2MH9ToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'gg2MH9_JHUgen_125p6',
+    ##'Graviton2MH9qqbarToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'qq2MH9_JHUgen_125p6',
+    ##'Graviton2MH10ToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'gg2MH10_JHUgen_125p6',
+    ##'Graviton2MH10qqbarToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'qq2MH10_JHUgen_125p6',
+    ##'Vector1MToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'qq1M_JHUgen_125p6',
+    ##'Vector1PToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'qq1P_JHUgen_125p6',
+    ##'Vector1Mf05ph01Pf05ph0ToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'qq1Mf05ph01Pf05ph0_JHUgen_125p6',
+    ##'Vector1Mf05ph01Pf05ph90ToZZTo4L_M-125p6_8TeV-JHUGenV3-pythia6': 'qq1Mf05ph01Pf05ph90_JHUgen_125p6',
+    ##'Higgs0MToGGTo4L_M-125p6_8TeV-powheg15-JHUgenV4': 'ggH0MToGG_JHUgen_125p6',
+    ##'Higgs0MToZGTo4L_M-125p6_8TeV-powheg15-JHUgenV4': 'ggH0MToZG_JHUgen_125p6',
+    ##'Higgs0PMToZGTo4L_M-125p6_8TeV-powheg15-JHUgenV4': 'ggHToZG_JHUgen_125p6',
+    ##'Higgs0PMToGGTo4L_M-125p6_8TeV-powheg15-JHUgenV4': 'ggHToGG_JHUgen_125p6'
+}

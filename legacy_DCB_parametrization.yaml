@@ -1,0 +1,81 @@
+---
+
+#         _\|/_
+#         (o o)
+# +----oOO-{_}-OOo-----------------------------------------------------------------+
+# |Double Crystal-ball parameters expressed as a function of mH around mH : 125 GeV|
+# +--------------------------------------------------------------------------------+
+#
+#@1 --> 0.00
+
+#RooDoubleCB::shapeSig_trueH2e2muBin0_8_ch3[ x=CMS_zz4l_mass mean=CMS_zz4l_mean_sig_NoConv_3_8 width=CMS_zz4l_sigma_sig_3_8_centralValue alpha1=CMS_zz4l_alpha_3_centralValue n1=CMS_zz4l_n_3_8_centralValue alpha2=CMS_zz4l_alpha2_3_centralValue n2=CMS_zz4l_n2_3_8_centralValue ] = 0.00712964
+#RooDoubleCB::shapeSig_trueH4eBin0_8_ch2[ x=CMS_zz4l_mass mean=CMS_zz4l_mean_sig_NoConv_2_8 width=CMS_zz4l_sigma_sig_2_8_centralValue alpha1=CMS_zz4l_alpha_2_centralValue n1=CMS_zz4l_n_2_8_centralValue alpha2=CMS_zz4l_alpha2_2_centralValue n2=CMS_zz4l_n2_2_8_centralValue ] = 0.00997629
+#RooDoubleCB::shapeSig_trueH4muBin0_8_ch1[ x=CMS_zz4l_mass mean=CMS_zz4l_mean_sig_NoConv_1_8 width=CMS_zz4l_sigma_sig_1_8_centralValue alpha1=CMS_zz4l_alpha_1_centralValue n1=CMS_zz4l_n_1_8_centralValue alpha2=CMS_zz4l_alpha2_1_centralValue n2=CMS_zz4l_n2_1_8_centralValue ] = 0.00448498
+
+
+#functions
+#--------
+#CMS_fakeH_p2_1_8[ actualVars=(CMS_fakeH_p1_1_8,CMS_fakeH_p3_1_8) formula="0.72*@0-@1" ] = 29.8
+#CMS_fakeH_p2_2_8[ actualVars=(CMS_fakeH_p1_2_8,CMS_fakeH_p3_2_8) formula="0.72*@0-@1" ] = 29.8
+#CMS_fakeH_p2_3_8[ actualVars=(CMS_fakeH_p1_3_8,CMS_fakeH_p3_3_8) formula="0.72*@0-@1" ] = 29.8
+#CMS_zz4l_alpha2_1_centralValue[ actualVars=(MH) formula="(-19.5288)+(0.525804*@0)+(-0.00487398*@0*@0)+(2.03764e-05*@0*@0*@0)+(-3.66955e-08*@0*@0*@0*@0)+(2.20557e-11*@0*@0*@0*@0*@0)" ] = 1.55264
+#CMS_zz4l_alpha2_2_centralValue[ actualVars=(MH) formula="(134.772)+(-3.52321*@0)+(0.0358562*@0*@0)+(-0.000175381*@0*@0*@0)+(4.115e-07*@0*@0*@0*@0)+(-3.69445e-10*@0*@0*@0*@0*@0)" ] = 1.27216
+#CMS_zz4l_alpha2_3_centralValue[ actualVars=(MH) formula="(10.0277)+(-0.243287*@0)+(0.0026732*@0*@0)+(-1.45571e-05*@0*@0*@0)+(3.9265e-08*@0*@0*@0*@0)+(-4.02105e-11*@0*@0*@0*@0*@0)" ] = 1.31279
+#CMS_zz4l_alpha_1_centralValue[ actualVars=(MH) formula="(-3.6088)+(0.107156*@0)+(-0.000832395*@0*@0)+(2.76884e-06*@0*@0*@0)+(-3.4753e-09*@0*@0*@0*@0)+(6.63626e-13*@0*@0*@0*@0*@0)" ] = 1.35921
+#CMS_zz4l_alpha_2_centralValue[ actualVars=(MH) formula="(-1.97072)+(0.0725852*@0)+(-0.000670387*@0*@0)+(2.75605e-06*@0*@0*@0)+(-4.67709e-09*@0*@0*@0*@0)+(2.41684e-12*@0*@0*@0*@0*@0)" ] = 0.942432
+#CMS_zz4l_alpha_3_centralValue[ actualVars=(MH) formula="(-14.6609)+(0.399488*@0)+(-0.00385576*@0*@0)+(1.74976e-05*@0*@0*@0)+(-3.71685e-08*@0*@0*@0*@0)+(2.97992e-11*@0*@0*@0*@0*@0)" ] = 1.03891
+#CMS_zz4l_mean_sig_1_8_centralValue[ actualVars=(MH,CMS_zz4l_mean_m_sig,CMS_zz4l_mean_m_err_1_8) formula="(((-15.2428)+(0.42122*@0)+(-0.00447937*@0*@0)+(2.26779e-05*@0*@0*@0)+(-5.482e-08*@0*@0*@0*@0)+(5.05978e-11*@0*@0*@0*@0*@0)))+@0*@1*@2" ] = -0.12735
+#CMS_zz4l_mean_sig_2_8_centralValue[ actualVars=(MH,CMS_zz4l_mean_e_sig,CMS_zz4l_mean_e_err_2_8) formula="(((-4.03873)+(0.142765*@0)+(-0.00182324*@0*@0)+(1.04662e-05*@0*@0*@0)+(-2.78456e-08*@0*@0*@0*@0)+(2.78107e-11*@0*@0*@0*@0*@0)))+@0*@1*@2" ] = -0.18896
+#CMS_zz4l_mean_sig_3_8_centralValue[ actualVars=(MH,CMS_zz4l_mean_m_sig,CMS_zz4l_mean_e_sig,CMS_zz4l_mean_m_err_3_8,CMS_zz4l_mean_e_err_3_8) formula="(((-10.9222)+(0.303444*@0)+(-0.00323681*@0*@0)+(1.63907e-05*@0*@0*@0)+(-3.96643e-08*@0*@0*@0*@0)+(3.6718e-11*@0*@0*@0*@0*@0)))+ (@0*@1*@3 + @0*@2*@4)/2" ] = -0.116893
+#CMS_zz4l_mean_sig_NoConv_1_8[ actualVars=(CMS_zz4l_mean_sig_1_8_centralValue,MH) formula="@0+@1" ] = 124.873
+#CMS_zz4l_mean_sig_NoConv_2_8[ actualVars=(CMS_zz4l_mean_sig_2_8_centralValue,MH) formula="@0+@1" ] = 124.811
+#CMS_zz4l_mean_sig_NoConv_3_8[ actualVars=(CMS_zz4l_mean_sig_3_8_centralValue,MH) formula="@0+@1" ] = 124.883
+#CMS_zz4l_n2_1_8_centralValue[ actualVars=(MH) formula="(20)" ] = 20
+#CMS_zz4l_n2_2_8_centralValue[ actualVars=(MH) formula="(20)" ] = 20
+#CMS_zz4l_n2_3_8_centralValue[ actualVars=(MH) formula="(20)" ] = 20
+#CMS_zz4l_n_1_8_centralValue[ actualVars=(MH,CMS_zz4l_n_sig_1_8) formula="(TMath::Max((21.8412)+(-0.457725*@0)+(0.00405228*@0*@0)+(-1.69485e-05*@0*@0*@0)+(3.3184e-08*@0*@0*@0*@0)+(-2.44899e-11*@0*@0*@0*@0*@0),1))*(1+@1)" ] = 2.1941
+#CMS_zz4l_n_2_8_centralValue[ actualVars=(MH,CMS_zz4l_n_sig_2_8) formula="(TMath::Max((-68.5573)+(1.68878*@0)+(-0.0144006*@0*@0)+(5.76535e-05*@0*@0*@0)+(-1.11285e-07*@0*@0*@0*@0)+(8.38162e-11*@0*@0*@0*@0*@0),1))*(1+@1)" ] = 5.524
+#CMS_zz4l_n_3_8_centralValue[ actualVars=(MH,CMS_zz4l_n_sig_3_8) formula="(TMath::Max((-13.9463)+(0.328247*@0)+(-0.00208904*@0*@0)+(5.30154e-06*@0*@0*@0)+(-4.91882e-09*@0*@0*@0*@0)+(4.42671e-13*@0*@0*@0*@0*@0),1))*(1+@1)" ] = 3.61052
+#CMS_zz4l_sigma_sig_1_8_centralValue[ actualVars=(MH,CMS_zz4l_sigma_m_sig) formula="(((-7.90106)+(0.215914*@0)+(-0.00204471*@0*@0)+(9.51991e-06*@0*@0*@0)+(-2.05431e-08*@0*@0*@0*@0)+(1.67545e-11*@0*@0*@0*@0*@0)))*(1+@1)" ] = 1.22907
+#CMS_zz4l_sigma_sig_2_8_centralValue[ actualVars=(MH,CMS_zz4l_sigma_e_sig) formula="(((7.8429)+(-0.176575*@0)+(0.00186777*@0*@0)+(-8.96356e-06*@0*@0*@0)+(2.09583e-08*@0*@0*@0*@0)+(-1.91015e-11*@0*@0*@0*@0*@0)))*(1+@1)" ] = 1.98182
+#CMS_zz4l_sigma_sig_3_8_centralValue[ actualVars=(MH,CMS_zz4l_sigma_m_sig,CMS_zz4l_sigma_e_sig) formula="(((-19.3154)+(0.526495*@0)+(-0.00518631*@0*@0)+(2.47189e-05*@0*@0*@0)+(-5.56479e-08*@0*@0*@0*@0)+(4.76618e-11*@0*@0*@0*@0*@0)))*(1+@1+@2)" ] = 1.60809
+
+
+#Missing parameters after including the new parametrization
+#CMS_zz4l_n_sig_1_8, CMS_zz4l_n_sig_2_8, CMS_zz4l_n_sig_3_8
+#CMS_zz4l_sigma_m_sig,CMS_zz4l_sigma_e_sig
+#CMS_zz4l_mean_m_sig,CMS_zz4l_mean_e_sig,
+#CMS_zz4l_mean_m_err_1_8,CMS_zz4l_mean_e_err_2_8,CMS_zz4l_mean_m_err_3_8,CMS_zz4l_mean_e_err_3_8,
+
+setup: &setup
+    parametrization_name: 'Legacy'
+    color: 2
+
+2e2mu_inclusive:
+    <<     : *setup
+    mean   : "@0+((-10.9222)+(0.303444*@0)+(-0.00323681*@0*@0)+(1.63907e-05*@0*@0*@0)+(-3.96643e-08*@0*@0*@0*@0)+(3.6718e-11*@0*@0*@0*@0*@0))+@0*0.00"
+    sigma  : "((-19.3154)+(0.526495*@0)+(-0.00518631*@0*@0)+(2.47189e-05*@0*@0*@0)+(-5.56479e-08*@0*@0*@0*@0)+(4.76618e-11*@0*@0*@0*@0*@0))*(1+0.00)"
+    alpha  : "(-14.6609)+(0.399488*@0)+(-0.00385576*@0*@0)+(1.74976e-05*@0*@0*@0)+(-3.71685e-08*@0*@0*@0*@0)+(2.97992e-11*@0*@0*@0*@0*@0)"
+    n      : "TMath::Max((-13.9463)+(0.328247*@0)+(-0.00208904*@0*@0)+(5.30154e-06*@0*@0*@0)+(-4.91882e-09*@0*@0*@0*@0)+(4.42671e-13*@0*@0*@0*@0*@0),1)"
+    alpha2 : "(10.0277)+(-0.243287*@0)+(0.0026732*@0*@0)+(-1.45571e-05*@0*@0*@0)+(3.9265e-08*@0*@0*@0*@0)+(-4.02105e-11*@0*@0*@0*@0*@0)"
+    n2     : "20"
+
+
+4e:
+    <<     : *setup
+    mean   : "@0+((-4.03873)+(0.142765*@0)+(-0.00182324*@0*@0)+(1.04662e-05*@0*@0*@0)+(-2.78456e-08*@0*@0*@0*@0)+(2.78107e-11*@0*@0*@0*@0*@0))+@0*0.00"
+    sigma  : "((7.8429)+(-0.176575*@0)+(0.00186777*@0*@0)+(-8.96356e-06*@0*@0*@0)+(2.09583e-08*@0*@0*@0*@0)+(-1.91015e-11*@0*@0*@0*@0*@0))*(1+0.00)"
+    alpha  : "(-1.97072)+(0.0725852*@0)+(-0.000670387*@0*@0)+(2.75605e-06*@0*@0*@0)+(-4.67709e-09*@0*@0*@0*@0)+(2.41684e-12*@0*@0*@0*@0*@0)"
+    n      : "TMath::Max((-68.5573)+(1.68878*@0)+(-0.0144006*@0*@0)+(5.76535e-05*@0*@0*@0)+(-1.11285e-07*@0*@0*@0*@0)+(8.38162e-11*@0*@0*@0*@0*@0),1)"
+    alpha2 : "(134.772)+(-3.52321*@0)+(0.0358562*@0*@0)+(-0.000175381*@0*@0*@0)+(4.115e-07*@0*@0*@0*@0)+(-3.69445e-10*@0*@0*@0*@0*@0)"
+    n2     : "20"
+
+4mu:
+    <<     : *setup
+    mean   : "@0+((-15.2428)+(0.42122*@0)+(-0.00447937*@0*@0)+(2.26779e-05*@0*@0*@0)+(-5.482e-08*@0*@0*@0*@0)+(5.05978e-11*@0*@0*@0*@0*@0))+@0*0.00"
+    sigma  : "((-7.90106)+(0.215914*@0)+(-0.00204471*@0*@0)+(9.51991e-06*@0*@0*@0)+(-2.05431e-08*@0*@0*@0*@0)+(1.67545e-11*@0*@0*@0*@0*@0))*(1+0.00)"
+    alpha  : "(-3.6088)+(0.107156*@0)+(-0.000832395*@0*@0)+(2.76884e-06*@0*@0*@0)+(-3.4753e-09*@0*@0*@0*@0)+(6.63626e-13*@0*@0*@0*@0*@0)"
+    n      : "TMath::Max((21.8412)+(-0.457725*@0)+(0.00405228*@0*@0)+(-1.69485e-05*@0*@0*@0)+(3.3184e-08*@0*@0*@0*@0)+(-2.44899e-11*@0*@0*@0*@0*@0),1)"
+    alpha2 : "(-19.5288)+(0.525804*@0)+(-0.00487398*@0*@0)+(2.03764e-05*@0*@0*@0)+(-3.66955e-08*@0*@0*@0*@0)+(2.20557e-11*@0*@0*@0*@0*@0)"
+    n2     : "20"
+
